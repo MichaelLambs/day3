@@ -1,0 +1,61 @@
+.top-section{
+    background: rgb(92, 134, 190);
+    height: 100vh;
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-top: -75px;
+}
+
+.middle-section{
+    background: #eaeaea;
+}
+
+.bottom-section{
+    background: rgb(92, 134, 190);
+}
+
+footer{
+    background: rgb(41, 64, 94);
+    color: white;
+}
+
+
+
+.cards {
+    margin: 100px 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cards:hover{
+    box-shadow: 0 0 17px 5px #e2e2e2;
+    background: white;
+} 
+
+.middle-title{
+    margin: 100px 15vw;
+    text-align: center;
+}
+
+.bottom-text{
+    margin-right: 40vh;
+    color: white;
+}
+
+.bottom-text h2{
+    margin-bottom: 40px;
+}
+
+.bot-mar{
+    margin-bottom: 50px;
+}
+
+.navigation-bar,
+.navbar{
+    background:#5c86be
+}
+
+.footy-section{
+    padding: 30px;
+}

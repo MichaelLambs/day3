@@ -1,0 +1,68 @@
+section{
+    background-image: url(https://i.ytimg.com/vi/10slRCQbXDc/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.box{
+    height: 260px;
+    width: 100px;
+    background: #333333;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red-light{
+    background: red;
+}
+
+.yellow-light{
+    background: yellow;
+    margin:5px 0;
+}
+
+.green-light{
+    background: green;
+}
+
+
+.red-light:hover{
+    box-shadow: 0 0 20px 10px rgb(255, 81, 81);
+}
+
+.yellow-light:hover{
+    box-shadow: 0 0 20px 10px rgb(255, 236, 62);
+}
+
+.green-light:hover{
+    box-shadow: 0 0 20px 10px rgb(44, 255, 107);
+}
+
+.post{
+    width: 40px;
+    height: 30px;
+    background: #333;
+    margin: 0 33%
+}
+
+body{
+    margin: 0;
+
+}
+
+.group{
+    display: inline-block;
+    margin-top: 15%;
+}

@@ -1,0 +1,17 @@
+Bootstrap Notes
+
+Front end framework.
+
+.container-fluid takes up full screen
+
+.container has margin
+
+once you get to 12 it jumps down
+
+to nest you have to create another "row" class.
+
+once you create a row it goes back to 12.
+
+justify-content-center i put on a row to center
+
+always load you stylesheet last Bring in external first.

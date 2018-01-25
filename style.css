@@ -1,73 +1,58 @@
-section{
-    background-image: url(https://i.ytimg.com/vi/10slRCQbXDc/maxresdefault.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    text-align: center;
+.back-white {
+    background: #f6f6f6;
 }
 
-
-.box{
-    height: 260px;
-    width: 100px;
-    background: #333333;
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.red-light{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: red;
-    display: inline-block;
-}
-
-.yellow-light{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: yellow;
-    margin:5px 0;
-    display: inline-block;
-}
-
-.green-light{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: green;
-    display: inline-block;
-}
-
-
-.red-light:hover{
-    box-shadow: 0 0 20px 10px rgb(255, 81, 81);
-}
-
-.yellow-light:hover{
-    box-shadow: 0 0 20px 10px rgb(255, 236, 62);
-}
-
-.green-light:hover{
-    box-shadow: 0 0 20px 10px rgb(44, 255, 107);
-}
-
-.post{
-    width: 40px;
-    height: 30px;
+.back-black{
     background: #333;
-    margin: 0 33%
+    color: white;
 }
 
-body{
-    margin: 0;
-
+.carosel-bg{
+    background: url(img/irish-whiskey.jpg) center left;
+    background-size: cover;
+    color: white;
+    height: 60vh;
+    align-items: center;
+    border-top: 10px solid #eaeaea;
+    border-bottom: 10px solid #eaeaea;
 }
 
-.group{
-    display: inline-block;
-    margin-top: 15%;
+.slider-text {
+    text-align: center;
+}
+
+.pull-quote{
+    margin: 5em;
+}
+
+.bottom-3-column {
+    margin: 5em 0;
+}
+
+.fa,
+.fas {
+    margin-bottom: .5em;
+}
+
+.footy-links {
+    margin: 3em 0;
+    font-size: 12px;
+    line-height: .5em;
+}
+
+.footy-links p{
+    margin-bottom: 1em;
+}
+
+.m-r-10 {
+    margin-right: 10em;
+}
+
+.al-c{
+    align-items: center;
+}
+
+.heady{
+    margin: 2em 0;
+    font-size: 13px;
 }
